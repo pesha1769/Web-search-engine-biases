@@ -1,0 +1,4 @@
+python script_logout.py &
+python script_man.py &
+python script_woman.py &
+python script_incognito.py &
