@@ -1,4 +1,3 @@
-python script_logout.py &
-python script_man.py &
-python script_woman.py &
-python script_incognito.py &
+nohup python first_hon_script.py &
+nohup python first_non_script.py &
+

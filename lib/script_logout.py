@@ -8,7 +8,7 @@ import time
 
 #start = time.time()
 
-time.sleep(20)
+time.sleep(15)
 browser_logout = LogoutGoogle() 
 
 #end = time.time()
@@ -28,7 +28,7 @@ for query_category in query_categories:
 
 	# Save results                                 
 	Save(dict_logout_google_male,
-	     path='../../Results/Logout/Google___{}.csv'.format(query_category)
+	     path='../../Results/Logout/Google__{}.csv'.format(query_category)
 	    )
 
 	break

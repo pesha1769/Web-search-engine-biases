@@ -1,0 +1,297 @@
+
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+PdfReadWarning: Xref table not zero-indexed. ID numbers for objects will be corrected. [pdf.py:1736]
+PdfReadWarning: Xref table not zero-indexed. ID numbers for objects will be corrected. [pdf.py:1736]
+Trying to download new driver from http://chromedriver.storage.googleapis.com/81.0.4044.69/chromedriver_mac64.zip
+Trying to download new driver from http://chromedriver.storage.googleapis.com/81.0.4044.69/chromedriver_mac64.zip
+Unpack archive /Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver.zip
+Unpack archive /Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver.zip
+
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+Traceback (most recent call last):
+  File "first_non_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+Traceback (most recent call last):
+  File "first_hon_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+        default_scheduler.run_pending()self._run_job(job)
+
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    self._run_job(job)
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 198, in SearchAndSave
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 198, in SearchAndSave
+    browser.get("https://google.com")     
+browser.get("https://google.com") 
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions    .raise exception_class(message, screen, stacktrace)WebDriverException
+: Message: chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+
+Traceback (most recent call last):
+  File "first_hon_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 461, in SearchAndSave
+    ind = np.where(np.array(search_results)=='HONcode certified')[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "first_non_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 506, in SearchAndSave
+    ScrollAndRead(browser, WINDOW_SIZE, READ_TIME)
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 151, in ScrollAndRead
+    length = int(browser.execute_script("return document.body.scrollHeight") / WINDOW_SIZE) - 2
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 636, in execute_script
+    'args': converted_args})['value']
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+
+Traceback (most recent call last):
+  File "first_non_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 198, in SearchAndSave
+    browser.get("https://google.com") 
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+
+
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+PdfReadWarning: Xref table not zero-indexed. ID numbers for objects will be corrected. [pdf.py:1736]
+PdfReadWarning: Xref table not zero-indexed. ID numbers for objects will be corrected. [pdf.py:1736]
+Traceback (most recent call last):
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 475, in SearchAndSave
+    click_element = browser.find_element_by_xpath('//a[@href="' + click_url + '"]')
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.129)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 487, in SearchAndSave
+    click_element = browser.find_element_by_xpath('//a[@href="' + click_url + '"]')
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.129)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "first_hon_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 496, in SearchAndSave
+    browser.get("https://google.com")        
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.129)
+
+
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+
+Traceback (most recent call last):
+  File "first_hon_script.py", line 11, in <module>
+    browser = LoginGoogle(email='hankfromensk@gmail.com', password='Ass12345') #CHANGE
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 94, in LoginGoogle
+    browser.find_element_by_xpath('//*[@id="googleConnectButton"]').click()
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="googleConnectButton"]"}
+  (Session info: chrome=81.0.4044.129)
+
+Traceback (most recent call last):
+  File "first_non_script.py", line 11, in <module>
+    browser = LoginGoogle(email='alexfromensk@gmail.com', password='Ensk2capitana') #CHANGE
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 94, in LoginGoogle
+    browser.find_element_by_xpath('//*[@id="googleConnectButton"]').click()
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="googleConnectButton"]"}
+  (Session info: chrome=81.0.4044.129)
+
+
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+Looking for [chromedriver 81.0.4044.69 mac64] driver in cache 
+
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+File found in cache by path [/Users/mikhailfedosov/.wdm/drivers/chromedriver/81.0.4044.69/mac64/chromedriver]
+PdfReadWarning: Xref table not zero-indexed. ID numbers for objects will be corrected. [pdf.py:1736]
+PdfReadWarning: Xref table not zero-indexed. ID numbers for objects will be corrected. [pdf.py:1736]
+Traceback (most recent call last):
+  File "first_non_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 198, in SearchAndSave
+    browser.get("https://google.com") 
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.340
+  (Session info: chrome=81.0.4044.129)
+
+Traceback (most recent call last):
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 628, in SearchAndSave
+    best_time = max(map(lambda x: datetime.strptime(x[3], '%Y-%m-%d') , search_results)) 
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 628, in <lambda>
+    best_time = max(map(lambda x: datetime.strptime(x[3], '%Y-%m-%d') , search_results)) 
+TypeError: strptime() argument 1 must be str, not float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 642, in SearchAndSave
+    best_time = max(map(lambda x: datetime.strptime(x[3], '%Y-%m-%d') , search_results)) 
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 642, in <lambda>
+    best_time = max(map(lambda x: datetime.strptime(x[3], '%Y-%m-%d') , search_results)) 
+TypeError: strptime() argument 1 must be str, not float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "first_hon_script.py", line 20, in <module>
+    schedule.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/usr/local/lib/python3.7/site-packages/schedule/__init__.py", line 466, in run
+    ret = self.job_func()
+  File "/Users/mikhailfedosov/Documents/ENSIMAG/Internship/Web-search-engine-biases/lib/tools.py", line 655, in SearchAndSave
+    browser.get("https://google.com")  
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.436
+  (Session info: chrome=81.0.4044.129)
+
